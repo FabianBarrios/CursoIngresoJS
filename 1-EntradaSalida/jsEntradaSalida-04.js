@@ -14,11 +14,11 @@ function mostrar()
 
 let nombre;
 
-// nombre = prompt('ingrese nombre');
+ nombre = prompt('ingrese nombre');
 
 document.getElementById('txtIdNombre').value = nombre;
-	let num = Math.floor(Math.random()*10);
-	console.log(num);
+	//let num = Math.floor(Math.random()*10);
+	//console.log(num);
 }
 
 
