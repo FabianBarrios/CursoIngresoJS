@@ -42,5 +42,29 @@ function Circulo ()
 }
 function Materiales () 
 {
-	
+    let largo; 
+    let ancho;
+    let area;
+    let cemento;
+    let cal; 
+
+    
+    largo = parseInt(document.getElementById('txtIdLargo').value);
+    ancho = parseInt(document.getElementById('txtIdAncho').value);
+
+    area = largo * ancho;
+    cemento = area * 2;
+    cal = area * 3;
+
+    //alert('Se necesita comprar ' + cemento + 'bolsa de cemento ');
+    //alert('Se necesita comprar ' + cal +' bolsas de cal')
+    alert(`Para un contrapiso de ${area}mts2 se necesita comprar ${cemento} bolsas de cemento ${cal} bolsas de cal`)
+
+
+
+
+
+
+
+
 }
