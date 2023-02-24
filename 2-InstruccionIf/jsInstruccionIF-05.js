@@ -1,6 +1,19 @@
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	//Al ingresar una edad solo debemos informar si la persona NO es adolescente.
 
-}//FIN DE LA FUNCIÓN
+	let edad;
+
+	edad = parseInt(document.getElementById("txtIdEdad").valeu);
+
+	if (edad < 13 || edad > 17) {
+		
+		alert('no es adolescente ');
+	}
+
+
+	//if (!(edad <= 13 && edad >= 17) ) {
+		//alert('No es adolescente');	
+	//}
+
+}
